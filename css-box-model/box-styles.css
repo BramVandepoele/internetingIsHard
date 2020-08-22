@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, p {
+    background-color: #DDE0E3;
+}
+
+em, strong{
+    background-color: #B2D6FF;
+    display: inline; /*default for em and strong */
+}
+
+h1{
+    padding: 50px;
+    border-bottom: 1px solid #5D6063;
+}
+
+p{
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;*/
+    /*can be written as*/
+    padding: 20px 10px;
+    /*vertical horizontal */
+    /* 4 values are top right bottom left*/
+    
+    margin-top: 20px;;
+    margin-bottom: 50px;    
+}
+
+strong{
+    margin: 50px;
+}
+
+div{
+    color: #FFF;
+    background-color: #4A90E2;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box; /* best practice */
+    margin: 20px auto; /*vertical horizontal*/
+}
+body{
+   text-align: center;
+}
+
